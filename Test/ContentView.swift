@@ -7,8 +7,9 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
-    
+
     @State var number = 10
     // @State : 변수의 변화를 화면에 적용시킬 수 있음
     
@@ -60,6 +61,7 @@ struct ContentView: View {
         
     }
 }
+
 
 #Preview {
     ContentView()
